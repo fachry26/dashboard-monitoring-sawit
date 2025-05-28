@@ -270,7 +270,7 @@ with col3:
             }
                 
             .info-big{
-                font-size: 18px;
+                font-size: 18px !important;
             }
         </style>
     """, unsafe_allow_html=True)
