@@ -215,7 +215,10 @@ dummy_sites = {
             {"name": "Wilayah B", "file_gambar": "142759.png", "luas": "12 Ha", "metadata": [{"title": "Penyemprotan", "subtitle": "09 Mei 2024 08:45 WIB", "icon": "🛠️"}]},
             {"name": "Wilayah C", "file_gambar": "143948.png", "luas": "14 Ha", "metadata": [{"title": "Panen", "subtitle": "10 Mei 2024 09:30 WIB", "icon": "✅"}]},
             {"name": "Wilayah D", "file_gambar": "144214.png", "luas": "9 Ha", "metadata": [{"title": "Pembersihan", "subtitle": "11 Mei 2024 14:15 WIB", "icon": "⚠️"}]},
-            {"name": "Wilayah E", "file_gambar": "144239.png", "luas": "11 Ha", "metadata": [{"title": "Pengamatan", "subtitle": "12 Mei 2024 15:00 WIB", "icon": "🛠️"}]}
+            {"name": "Wilayah E", "file_gambar": "144239.png", "luas": "11 Ha", "metadata": [{"title": "Pengamatan", "subtitle": "12 Mei 2024 15:00 WIB", "icon": "🛠️"}]},
+            {"name": "Wilayah F", "file_gambar": "144309.png", "luas": "9 Ha", "metadata": [{"title": "Pembersihan", "subtitle": "11 Mei 2024 14:15 WIB", "icon": "⚠️"}]},
+            {"name": "Wilayah G", "file_gambar": "144805.png", "luas": "11 Ha", "metadata": [{"title": "Pengamatan", "subtitle": "12 Mei 2024 15:00 WIB", "icon": "🛠️"}]},
+            {"name": "Wilayah H", "file_gambar": "150058.png", "luas": "9 Ha", "metadata": [{"title": "Pembersihan", "subtitle": "11 Mei 2024 14:15 WIB", "icon": "⚠️"}]}
         ]
     }
 }
@@ -253,8 +256,6 @@ with col1:
     
     # st_image_button("Title", "images.jpeg", "150px", "outlined")
     img_selected = image_select("PIlih Area :", picts_area, names_area, use_container_width=False)
-
-    st.write(img_selected)
 
 def image_to_base64(img):
     from io import BytesIO
